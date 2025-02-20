@@ -125,14 +125,19 @@ function initPageCommon()
 	// Cancel any ongoing async ops
 	ec.cancelOperation();
 	
+	// ecsUrl = 'https://ecs.shop.wii.com/ecs/services/ECommerceSOAP';
+	// iasUrl = 'https://ias.shop.wii.com/ias/services/IdentityAuthenticationSOAP';
+	// ccsUrl = 'http://ccs.cdn.shop.wii.com/ccs/download';
+	// ucsUrl = 'https://ccs.shop.wii.com/ccs/download';
 
-	ecsUrl = 'https://ecs.shop.wii.com/ecs/services/ECommerceSOAP';
+	ecsUrl = 'https://eshop.erroroliver.lol/ecs/services/ECommerceSOAP';
 
-	iasUrl = 'https://ias.shop.wii.com/ias/services/IdentityAuthenticationSOAP';
+	iasUrl = 'https://eshop.erroroliver.lol/ias/services/IdentityAuthenticationSOAP';
 
-	ccsUrl = 'http://ccs.cdn.shop.wii.com/ccs/download';
+	ccsUrl = 'http://eshop.erroroliver.lol/ccs/download';
 
-	ucsUrl = 'https://ccs.shop.wii.com/ccs/download';
+	ucsUrl = 'https://eshop.erroroliver.lol/usc/ccs/download';
+	// ucsUrl = 'https://eshop.erroroliver.lol/ccs/download';
 	
 
 	ec.setWebSvcUrls(ecsUrl, iasUrl);
