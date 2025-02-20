@@ -130,14 +130,14 @@ function initPageCommon()
 	// ccsUrl = 'http://ccs.cdn.shop.wii.com/ccs/download';
 	// ucsUrl = 'https://ccs.shop.wii.com/ccs/download';
 
-	ecsUrl = 'https://eshop.erroroliver.lol/ecs/services/ECommerceSOAP';
+	ecsUrl = 'https://liishop.erroroliver.lol/ecs/services/ECommerceSOAP';
 
-	iasUrl = 'https://eshop.erroroliver.lol/ias/services/IdentityAuthenticationSOAP';
+	iasUrl = 'https://liishop.erroroliver.lol/ias/services/IdentityAuthenticationSOAP';
 
-	ccsUrl = 'http://eshop.erroroliver.lol/ccs/download';
+	ccsUrl = 'http://liishop.erroroliver.lol/ccs/download';
 
-	ucsUrl = 'https://eshop.erroroliver.lol/usc/ccs/download';
-	// ucsUrl = 'https://eshop.erroroliver.lol/ccs/download';
+	ucsUrl = 'https://liishop.erroroliver.lol/usc/ccs/download';
+	// ucsUrl = 'https://liishop.erroroliver.lol/ccs/download';
 	
 
 	ec.setWebSvcUrls(ecsUrl, iasUrl);
@@ -147,8 +147,8 @@ function initPageCommon()
 
 	imagesPath = "/oss/oss/common/images/";
 	htmlPath = "/oss/oss/common/html";
-	ossPath = "https://oss-auth.shop.wii.com/oss/serv/";
-	secureOssPath = "https://oss-auth.shop.wii.com/oss/serv/";	
+	ossPath = "https://liishop.erroroliver.lol/oss/serv/";
+	secureOssPath = "https://liishop.erroroliver.lol/oss/serv/";	
 
 	ecTimeout = new ECTimeout(parseInt("60000"));
 	
